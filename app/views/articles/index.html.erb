@@ -1,0 +1,8 @@
+<h1>Article index page</h1>
+
+<% @articles.each do |article| %>
+  <%= link_to article do %>
+    <h4><%= article.title %></h4>
+  <% end %>
+  <p><%= article.body %></p><br>
+<% end %>
