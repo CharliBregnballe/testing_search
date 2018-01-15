@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is just for me to test a few different search gems.
+My plan is to implement each search gem on a new branch, so they have their own.
+You might wonder why there are no searchkick, solr ect.
+That is because I wanted to test the smaller search gems/option, and end up implementing one of them on a 5$ droplet on digital ocean.  If its possible :)
 
-Things you may want to cover:
+Once I am done i'll hopefully have the following implemented:
 
-* Ruby version
+* https://github.com/Casecommons/pg_search
 
-* System dependencies
+* https://github.com/activerecord-hackery/ransack
 
-* Configuration
+* https://github.com/pat/thinking-sphinx
 
-* Database creation
+* https://github.com/sunspot/sunspot
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
