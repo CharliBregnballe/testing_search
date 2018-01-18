@@ -2,7 +2,7 @@ class ArticlesController < ApplicationController
 
   def index
     if params[:search].present?
-      @articles = Article.perform_search(params[:search])
+      @articles = Article.search(params[:search])
     else
       @articles = Article.all
     end
