@@ -7,8 +7,9 @@
     <% end %>
   </div>
 
-
 <h1>Article index page</h1>
+
+<% if params[:q].present? %>
 
 <table>
   <tr>
@@ -22,3 +23,9 @@
     </tr>
   <% end %>
 </table>
+
+<% else %>
+
+<p>No search</p>
+
+<% end %>
