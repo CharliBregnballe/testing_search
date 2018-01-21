@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
+1000.times do
 
 Article.create(title: 'Artificial intelligence',
   body: 'Artificial intelligence (AI, also machine intelligence, MI) is intelligence displayed by machines, in contrast with the natural intelligence (NI) displayed by humans and other animals. In computer science AI research is defined as the study of intelligent agents: any device that perceives its environment and takes actions that maximize its chance of success at some goal.[1] Colloquially, the term artificial intelligence is applied when a machine mimics "cognitive" functions that humans associate with other human minds, such as "learning" and "problem solving".[2] See glossary of artificial intelligence.
@@ -132,3 +132,4 @@ Article.create(title: '', body: '')
 
 Article.create(title: '', body: '')
 
+end
