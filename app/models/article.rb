@@ -6,7 +6,9 @@ class Article < ApplicationRecord
         tsearch: {
           prefix: true,
           any_word: true,
-          dictionary: 'english'
+          dictionary: 'english',
+          tsvector_column: 'tsv'
         }
       }
+
 end
